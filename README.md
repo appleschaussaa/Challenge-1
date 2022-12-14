@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 ​
 - Solution URL: (file:///C:/Users/rober/Desktop/bootcamp/code-refactor/index.html#social-media-marketing)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://appleschaussaa.github.io/code-refactor/)
 ​
 ## My process
 ​
