@@ -1,13 +1,16 @@
+/* This adds styling to all elements setting a standard styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changed the background of the whole body */
 body {
     background-color: #d9dcd6;
 }
 
+/* This added padding all around, set fonts, changed the background color and the color of the font in the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,43 +18,44 @@ body {
     color: #ffffff;
 }
 
+/* This made sure the h1 was all aligned correctly and set the font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This changed just the class seo so that it was a difference collor from the rest of the h1 font */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align:center;
-}
-
-.header div {
+/* This changed the padding and margins of all the inside the article, making it appear on the right of the screen, changed the font and size of the font */
+.header article {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    justify-content: space-evenly;
 }
 
-.header div ul li {
+/* This changed the list items to appear side by side and changed the margins just on the left side */
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This set the font color and made it so there was no underline for each word */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this changed all the paragraphs font size */
 p {
     font-size: 16px;
 }
 
+/* This set the perameters for the main image as well as creating the link to show up in the index file. Also made sure it covered the full width of the screen and made sure it was center */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +65,47 @@ p {
     background-position: center;
 }
 
+/* This tells the first and last images within the content section to stay to the left of the text and changed the margins on the right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This tells the second image to stay to the right of the text and changes the magins on the left side */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* This changed the width alllowing the benefits section to stay to the right, made each article appear one on tops of the other and changed the overall margin on the left side */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This set the parameters of each article within the context section, changed the font type, background and font color */
+.cards {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This set the image height for each image with the class cards */
+.cards img {
+    max-height: 200px;
+}
+
+/* This changed the margin bottoms and font size for all h3 elements which all happen to be withing the content section */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This changed the parameters of the benefit section to fit to the right of the content section as well as changing the font and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,42 +117,32 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* this changed the margin on bottom foreach article and the color of the font within the benefit section */
+.benefit-block{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/* This the images align in a block format, changed the margins all around and set its max width */
+.benefit-block img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* this changed the alignment of the text so it is centered for all h3 elementwhich are all within the benefits section */
+h3 {
+    text-align: center;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This set the padding, font type and aligned everything to the center of the screen for the footer */
 .footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/* This changed the size of the font for all h4 elements which is in the footer */
 .footer h4 {
     font-size: 20px;
 }
